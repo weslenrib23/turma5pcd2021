@@ -17,6 +17,8 @@ h1{
     font-size: max(16px, 1.4vw);
     text-transform: uppercase;
     color: #fff;
+    padding-bottom: 10px;
+    
 }
 
 a {
@@ -73,6 +75,7 @@ fieldset{
 
 h2{
     font-size: 25px;
+
  }
 
  input[type="text"],
@@ -102,7 +105,7 @@ h2{
 }
 
 ::placeholder{ /* CONFIGURAÇÃO DOS PLACEHOLDER */
-    color: rgb(182, 179, 179);
+    color: rgb(223, 221, 221);
 }
 
 input[type='text']:hover,
@@ -132,4 +135,5 @@ button.btn:hover{ /* CONFIGURAÇÃO DOS BUTTON QUANDO PASSARMOS O CURSOR */
 .bran{
     font-family: Arial, Helvetica, sans-serif;
     color: #fff;
+    font-size: 25px;
 }
