@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu {
+    background-color: #fc6a03;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif, Courier, monospace;
+    height: 80px;
+    margin-bottom: 7%;
+   
+}
+
+h1{
+    font-size: max(16px, 1.4vw);
+    text-transform: uppercase;
+    color: #fff;
+    padding-bottom: 10px;
+    
+    
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    opacity: 0.7;
+  }
+
+.menu-list{
+    list-style: none;
+    display: flex;
+}
+
+.menu-list li{
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+.sombra:houver{
+    text-shadow: 1px 1px 1px rgb(228, 247, 255); 
+}
+span {
+    font-size: 14px;   
+}
+h2{
+    font-size: 40px;
+    line-height: 40px;
+    padding:20px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+body{
+    background-color: whitesmoke;
+}
+
+#img_vacina{
+        display:flex;
+        border-radius: 4px 4px 4px 4px;
+        background-size: 100%;
+        background-position: cen;
+        
+
+    /*width: 80%;
+    border-radius: 3px 3px 3px 3px;
+    margin-left: 5%; */
+}
+.noticia figcaption{
+  margin-top: 20%;
+}
+.noticia img{
+  width: 590px;
+  height: 290px;
+  position: relative;
+  -webkit-transition: -webkit-transform .5s ease;
+  transition: transform .5s ease; 
+  filter: brightness(0.5);
+  
+  
+}
+
+.noticia:hover img{
+    -webkit-transform: scale(1.1);
+    transform:scale(1.1);
+}
+.noticia figcaption{
+  position: absolute;
+  bottom: 0;
+  font-size:  20px;
+  color: black;
+  
+}
+
+#link{
+    color: rgb(242, 242, 247);
+}
+
+.text{
+  padding: 20px;
+  position: absolute;
+  bottom: 0px;
+  color: #fff;
+  font-size: 24px;
+  
+}
+.text:hover{
+  text-shadow: 1px 1px 1px rgb(228, 247, 255);
+}
+
+.direita{
+  position: absolute;
+  right: 10px;
+}
+
+.noticia{
+    box-shadow: 5px 5px 5px 5px gray;
+    width: 30%;
+    border: 30px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    text-align: justify;
+    display: inline-block;
+    position: relative;
+    border: 30px;
+    display: inline-block;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+}
+
+footer{
+ 
+  width: 100%;
+  height: 100%;
+
+}
+
+
+
+.rodape{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif, Courier, monospace;
+    background: #fc6a03;
+    height:100px;
+    width: 100%;
+    margin-top: 7%;
+}
+.bran{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size: 25px;
+}
