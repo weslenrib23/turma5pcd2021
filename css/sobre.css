@@ -1,0 +1,89 @@
+body {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.menu {
+    background-color: #fc6a03;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif, Courier, monospace;
+    height: 80px;
+    margin-bottom: 7%;
+}
+
+.menu-list{
+    list-style: none;
+    display: flex;
+}
+
+.menu a:hover {
+    opacity: 0.7;
+}
+
+h1{
+    font-size: max(16px, 1.4vw);
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.menu-list li{
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container{
+    list-style: none;
+    display: flex;
+    width: 700px;
+    
+}
+
+.linkedin{
+    padding: 10px;
+    background-color: #C0C0C0;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 20px
+
+}
+
+.foto{
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+    padding: 20px;
+    
+ 
+}
+
+.descrição{
+    margin-left: 10px;
+   line-height: 25px;
+   font-size: 20px;
+}
+
+.imglink{
+    width: 40px;
+    bottom: 10px;
+    cursor: pointer;
+}
+
+.rodape{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif, Courier, monospace;
+    background: #fc6a03;
+    height:100px;
+    width: 100%;
+    margin-top: 7%;
+
+
