@@ -17,7 +17,7 @@ h1{
     font-size: max(16px, 1.4vw);
     text-transform: uppercase;
     color: #fff;
-    padding-bottom: 10px;
+  
 }
 
 a {
@@ -148,7 +148,7 @@ footer{
     align-items: center;
     font-family: Arial, Helvetica, sans-serif, Courier, monospace;
     background: #fc6a03;
-    height:100px;
+    height:80px;
     width: 100%;
     margin-top: 7%;
 }
