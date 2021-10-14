@@ -14,8 +14,8 @@ Construir uma landing page com as 6 melhores notícias sobre o COVID-19, usando 
 #Autoria
 Grupo:05
 
-Jones
-Henrique
-Marcos
-Thiago
-Wesley
+-Jones
+-Henrique
+-Marcos
+-Thiago
+-Wesley
