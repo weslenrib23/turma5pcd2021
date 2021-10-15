@@ -65,9 +65,7 @@ body{
         background-position: cen;
         
 
-    /*width: 80%;
-    border-radius: 3px 3px 3px 3px;
-    margin-left: 5%; */
+    
 }
 .noticia figcaption{
   margin-top: 20%;
@@ -142,8 +140,6 @@ footer{
 
 }
 
-
-
 .rodape{
     display: flex;
     justify-content: space-around;
@@ -160,7 +156,7 @@ footer{
     font-size: 25px;
 }
 
-.btn2 { /* CONFIGURAÇÕES DOS BOTOES */
+.btn2 { 
     background-color: #fc6a03;
     color: white;
     border:5px;

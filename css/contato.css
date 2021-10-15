@@ -96,7 +96,7 @@ h2{
      transition: color 0.3s ease-in-out;
  }
 
- .btn { /* CONFIGURAÇÕES DOS BOTOES */
+ .btn { 
     background-color:#fc6a03;
     color: white;
     border: none;
@@ -107,19 +107,19 @@ h2{
     cursor: pointer;
 }
 
-::placeholder{ /* CONFIGURAÇÃO DOS PLACEHOLDER */
+::placeholder{ 
     color: rgb(223, 221, 221);
 }
 
 input[type='text']:hover,
 input[type='email']:hover,
 textarea:hover,
-input[type='tel']:hover{ /* CONFIGURAÇÃO DOS INPUTS QUANDO PASSARMOS O CURSOR */
+input[type='tel']:hover{ 
     background-color: #fc6a03;
     border-radius: 3px;
 }
 
-button.btn:hover{ /* CONFIGURAÇÃO DOS BUTTON QUANDO PASSARMOS O CURSOR */
+button.btn:hover{ 
     background-color: white;
     color: #fc6a03;
     font-weight: bold;
