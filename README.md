@@ -19,3 +19,5 @@ Grupo:05
 - Marcos
 - Thiago
 - Wesley
+
+hospedagem: grupo5-noticia-covid19.netlify.app
