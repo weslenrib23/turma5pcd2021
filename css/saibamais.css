@@ -19,12 +19,13 @@ h1{
     font-size: max(16px, 1.4vw);
     text-transform: uppercase;
     color: #fff;
-  
+     
 }
 
 a {
     color: #fff;
     text-decoration: none;
+    
 }
 
 .menu a:hover {
@@ -34,11 +35,13 @@ a {
 .menu-list{
     list-style: none;
     display: flex;
+    
 }
 
 .menu-list li{
     letter-spacing: 3px;
     margin-left: 32px;
+   
 }
 
 .sombra:houver{
